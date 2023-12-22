@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Form</title>
+     <style type="text/css">
+           body{
+               background-image:url(photo1.avif);
+               background-size: cover;
+           }
+           h1, h2{
+               text-align:center;
+               color: #D35400;
+           }
+           .myform{
+               background-color: white;
+               width: 400px;
+               padding: 50px;
+               margin: auto;
+               opacity: 0.7;
+           }
+           td{
+               padding: 10px 0px;
+               font-size: 20;
+          } 
+          input,textarea{
+              font-size: 18;
+              padding: 4px;
+              border: none;
+/*background-color: #f6DDCC;*/
+              border-bottom: 1px solid #035400;
+           }
+           .btn{
+            background-color: #D35400;
+            color: white;
+            padding: 1px 32px;
+            border-radius: 5px;
+            cursor: pointer;
+           }
+     </style>
+</head>
+<body>
+     <h2>CSS Form</h2>
+     <div class="myform">
+     <form>
+     	<h2>Regustration Form</h2>
+     	<table>
+     		<tr>
+     			<td><label>First Name :</label></td>
+     			<td><input type="text" name="fname" placeholder="Enter your Name"></td>
+     		</tr>
+               <tr>
+                    <td><label>Last Name :</label></td>
+                    <td><input type="text" name="lname" placeholder="Enter your Name"></td>
+               </tr>
+               <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="Email" name="Email"></td>
+               </tr>
+               <tr>
+                    <td><label>Message :</label></td>
+                    <td><textarea name="Message"></textarea></td>
+               </tr>
+               <tr>
+                    <td><input type="submit" value="Submit" class="btn"></td>
+               </tr>
+     	</table>
+     </form>
+   </div>
+</body>
+</html>
